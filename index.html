@@ -224,21 +224,21 @@
 										<input type="hidden" name="_captcha" value="false">
                                         <input type="hidden" name="_template" value="table">
                                         <input type="hidden" name="_subject" value="New Message from Care&Crew Website">
-										<input class="form-control" id="name" type="text" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name.">
+										<input class="form-control" id="name" name="name" type="text" placeholder="Your Name" required="required">
 										<p class="help-block text-danger"></p>
 									</div>
 									<div class="form-group">
-										<input class="form-control" id="email" type="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email address.">
+										<input class="form-control" id="email" name="email" type="email" placeholder="Your Email" required="required">
 										<p class="help-block text-danger"></p>
 									</div>
 									<div class="form-group">
-										<input class="form-control" id="phone" type="tel" placeholder="Your Phone" required="required" data-validation-required-message="Please enter your phone number.">
+										<input class="form-control" id="phone" name="phone" type="tel" placeholder="Your Phone" required="required">
 										<p class="help-block text-danger"></p>
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="form-group">
-										<textarea class="form-control" id="message" placeholder="Your Message" required="required" data-validation-required-message="Please enter a message."></textarea>
+										<textarea class="form-control" id="message" name="message" placeholder="Your Message" required="required"></textarea>
 										<p class="help-block text-danger"></p>
 									</div>
 								</div>
@@ -284,8 +284,6 @@
 	<script src="js/parallaxie.js"></script>
 	<script src="js/headline.js"></script>
 	<!-- Contact form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
     <!-- ALL PLUGINS -->
     <script src="js/custom.js"></script>
     <script src="js/jquery.vide.js"></script>
